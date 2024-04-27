@@ -1,17 +1,15 @@
-Source: eduice-secondary
+Source: edu-secondary
 Section: misc
 Priority: optional
 Maintainer: MountainOS <mountainoslinux@gmail.com>
-Homepage: mountainlinuxos.wordpress.com/eduice
+Homepage: project-altitude.github.io
 Build-Depends: debhelper-compat (= 12)
 Standards-Version: 3.9.2
 Rules-Requires-Root: no
 
-Package: eduice-secondary
+Package: edu-secondary
 Architecture: all
 Depends: gimp, kalgebra, inkscape, marble, kdenlive, kdevelop, kgeography, kwave, kwordquiz, librecad, subtitlecomposer, fritzing, chemtool, step, stellarium, kalzium, minuet
 Multi-Arch: foreign
-Description: EduIce tools secondary
- This package installs secondary education apps for MountainOS EduIce
- .
- second paragraph
+Description: MOS Edu tools secondary
+ This package installs secondary education apps for MountainOS Edu
